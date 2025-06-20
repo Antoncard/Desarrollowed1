@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#clickButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#clickButton:hover {
+    background-color: #0056b3;
+}
+
+#clickCount {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #555;
+}
